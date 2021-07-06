@@ -1,9 +1,10 @@
-h1 {
+h1 {font-weight: bold;
     font-size: 60px; background-color:rgb(85, 81, 85); color:white;   text-align: center; 
 
 
   }
-  .first { font-size: 30px; background-color:rgb(243, 164, 230); color:white;   text-align:justify;}
-  .second {font-size: 30px; background-color:rgb(243, 164, 230); color:white;   text-align:justify;}
-  .third  {font-size: 30px; background-color:rgb(243, 164, 230); color:white;   text-align:justify;}
+  .first { font-weight: bold;font-size: 30px; background-color:rgb(35, 147, 223); color:rgb(14, 13, 13);   text-align:justify;}
+  .second {font-weight: bold;font-size: 30px; background-color:rgb(150, 181, 207); color:rgb(14, 13, 13);   text-align:justify;}
+  .third  {font-weight: bold;font-size: 30px; background-color:rgb(245, 120, 224); color:rgb(14, 13, 13);   text-align:justify;}
+  .fourth  {font-weight: bold;font-size: 30px; background-color:rgb(184, 18, 18); color:rgb(14, 13, 13);   text-align:justify;}
   
