@@ -107,11 +107,17 @@ alert('you have a score of '+ score+'/5');
 alert('thanks for playing '+firstname+' please click ok to continue to my website')
 
 
-
-
-
-
-
-
-
-
+for (let i = 4; i > 0; i--) {
+    alert('let\'s play a game and guess the number of my role modles in life ! you can choose a number from 1 to 20 ! Let\'s start ! you have ' + i + ' attempts ');
+    let answer = prompt('write down your answer please :');
+    if (answer = 10) {
+        alert(' Well Done ' + firstname + ' It\'s the correct number !');
+        score++;
+        break;
+    }
+    else if (answer > 10){
+        alert('Oops ! you\'ve gone too high ' + firstname + ' !');}
+    else if (answer < 10){
+        alert('Oops ! you\'ve gone too low ' + firstname + ' !');
+}
+alert('The number of my role modles in life ' + firstname + ' is 10 !');}
