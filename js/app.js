@@ -1,8 +1,13 @@
 'use strict';
 let firstname = prompt('Welcome to my guessing game ! write your first name please :');
-alert('Welcome ' + firstname + ' nice to meet you , let\'s start guessing !');
+ function question1(){
+    alert('Welcome ' + firstname + ' nice to meet you , let\'s start guessing !');
+}
+ question1();
+
 let score = 0;
 
+function question2(){
 let favcolor = prompt('Is My Favourite color pink ?');
 
 favcolor = favcolor.toLowerCase();
@@ -18,11 +23,14 @@ else if (favcolor === 'no' || favcolor === 'n') {
 
 }
 
-
 else {
     alert('please write yes or no');
 }
+}
+question2();
+ 
 
+function question3(){
 let favseason = prompt('Is My Favourite season summer ?');
 
 favseason = favseason.toLowerCase();
@@ -43,7 +51,10 @@ else if (favseason === 'no' || favseason === 'n') {
 else {
     alert('please write yes or no');
 }
+}
+question3();
 
+function question4(){
 let favfruit = prompt('Is My Favourite fruit Strawberries ?');
 
 favfruit = favfruit.toLowerCase();
@@ -63,8 +74,10 @@ else if (favfruit === 'no' || favfruit === 'n') {
 else {
     alert('please write yes or no');
 }
-
-
+}
+question4();
+ 
+function  question5(){
 let favdrink = prompt('Is My Favourite drink Tea ?');
 
 favdrink = favdrink.toLowerCase();
@@ -84,8 +97,10 @@ else if (favdrink === 'no' || favdrink === 'n') {
 else {
     alert('please write yes or no');
 }
+} 
+question5();
 
-
+function question6(){
 let favpet = prompt('Do you think My Favourite pet would be a Dog?');
 
 favpet = favpet.toLowerCase();
@@ -105,8 +120,8 @@ else if (favpet === 'no' || favpet === 'n') {
 else {
     alert('please write yes or no');
 }
-
-
+}
+question6();
 
 
 
